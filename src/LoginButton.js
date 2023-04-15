@@ -1,4 +1,5 @@
 import React from "react";
+import Fetch from './components/Fetch';　　　　　　　　　　　//　⇦ ここを追加した
 
 // https://morioh.com/p/801941e80590
 
@@ -29,6 +30,8 @@ class LoginButton extends React.Component {
     const { showHideFName, showHideLName } = this.state;
     return (
     <div>
+         <Fetch />
+         
         <table>
           {showHideFName && (
             <tr>
