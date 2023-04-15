@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react'
 
-const Fetch = () => {
+const Fetch = (props) => {
 
     const [posts, setPosts] = useState([])
 
@@ -14,6 +14,7 @@ const Fetch = () => {
 
     return (
         <div>
+            {props.name}
             <ul>
                 {
                     posts.map(post => 

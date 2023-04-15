@@ -30,7 +30,7 @@ class LoginButton extends React.Component {
     const { showHideFName, showHideLName } = this.state;
     return (
     <div>
-         <Fetch />
+         <Fetch name="Sara" />
          
         <table>
           {showHideFName && (
