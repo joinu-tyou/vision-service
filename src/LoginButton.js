@@ -1,5 +1,6 @@
 import React from "react";
 import Fetch from './components/Fetch';　　　　　　　　　　　//　⇦ ここを追加した
+import Customer from './Customer/Customer';
 
 // https://morioh.com/p/801941e80590
 
@@ -31,6 +32,7 @@ class LoginButton extends React.Component {
     return (
     <div>
          <Fetch name="Sara" />
+         <Customer />
          
         <table>
           {showHideFName && (
